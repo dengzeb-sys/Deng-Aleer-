@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Background Circle -->
+    <path
+        android:fillColor="@color/gold_soft"
+        android:pathData="M50,50m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0" />
+
+    <!-- Flower Petals (Beauty Symbol) -->
+    <path
+        android:fillColor="@color/pink_deep"
+        android:pathData="M50,20c0,0 15,15 15,30c0,15 -15,30 -15,30s-15,-15 -15,-30c0,-15 15,-30 15,-30z" />
+    <path
+        android:fillColor="@color/gold_primary"
+        android:pathData="M20,50c0,0 15,-15 30,-15c15,0 30,15 30,15s-15,15 -30,15c-15,0 -30,-15 -30,-15z" />
+    <path
+        android:fillColor="@color/pink_primary"
+        android:pathData="M50,50m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" />
+</vector>
